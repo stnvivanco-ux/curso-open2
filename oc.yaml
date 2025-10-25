@@ -34,9 +34,6 @@ spec:
                 name: mi-configmap-2
             - secretRef:
                 name: mi-secret-2
-          volumeMounts:
-            - name: datos
-              mountPath: "/app/data"
 ---
 
 apiVersion: v1
